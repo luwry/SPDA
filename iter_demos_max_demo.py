@@ -174,7 +174,7 @@ def iter_cluster_demos(text):
 
             for line in dem_arguments:
                 total_num_token += num_tokens_from_string(line["pred_ans"])
-                # total_num_token += num_tokens_from_string(line["doc"])  ###计算当前输入的所有检索样例token数量
+                # total_num_token += num_tokens_from_string(line["doc"])  
 
         if total_num_token > token_limit - token_reserved:
             continue
@@ -183,7 +183,7 @@ def iter_cluster_demos(text):
                 rcd_max_n = len(dem_arguments)
                 rcd = nc
 
-    print("rcd: " + str(rcd), "rcd_max_n: " + str(rcd_max_n))###打印最大能输入的演示样本数量
+    print("rcd: " + str(rcd), "rcd_max_n: " + str(rcd_max_n))
     while True:
         try:
             print("---------------rcd: " + str(rcd) + "---------------")
@@ -205,7 +205,7 @@ def iter_cluster_demos(text):
 
             print(" number of example:" + str(len(x)) + " iters: " + str(iters))
 
-            ###迭代检索样例
+            ###iterative process
             index_list = list(range(len(x)))
             for p in range(args.iter):
                 index_list_new = index_list[:]
@@ -308,7 +308,6 @@ if __name__ == "__main__":
     EVENT_TYPE = []
     for root, dirs, files in os.walk(DATA_DIR, topdown=False):
         EVENT_TYPE = dirs
-    # EVENT_TYPE = ['academy award ceremony']
     for event_type in EVENT_TYPE:
         path = DATA_DIR + event_type + '/'
 
