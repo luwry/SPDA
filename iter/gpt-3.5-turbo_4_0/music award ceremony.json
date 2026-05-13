@@ -1,0 +1,18 @@
+[
+    {
+        "doc": "The <tgr>52nd Academy of Country Music Awards</tgr>, also known as the 2017 ACM Awards, were held at the T-Mobile Arena in Las Vegas, Nevada on April 2, 2017. Nominations for the <tgr>52nd Academy of Country Music Awards</tgr> were announced on February 16, 2017. Luke Bryan returned to host the show for his fifth consecutive year, with co-host Dierks Bentley returning for his third consecutive year. The winners are shown in bold. Source:",
+        "pred_ans": "| Event Name                           | Location             | Date       | Host(s)                        | Nomination Announcement Date |\n|--------------------------------------|----------------------|------------|--------------------------------|------------------------------|\n| 52nd Academy of Country Music Awards | T-Mobile Arena       | April 2, 2017 | Luke Bryan, Dierks Bentley    | February 16, 2017             |"
+    },
+    {
+        "doc": "The <tgr>41st Academy of Country Music Awards</tgr> were held on May 23, 2006 at the MGM Grand Garden Arena Las Vegas, Nevada. The ceremony was hosted by ACM Award Winner, Reba McEntire. Winners are shown in bold.",
+        "pred_ans": "| Event Name                          | Date        | Location                      | Host           | Winners in Bold |\n|-------------------------------------|-------------|-------------------------------|----------------|-----------------|\n| 41st Academy of Country Music Awards| May 23, 2006| MGM Grand Garden Arena Las Vegas, Nevada| Reba McEntire  | Yes             |"
+    },
+    {
+        "doc": "The <tgr>48th Academy of Country Music Awards</tgr> were held on April 7, 2013, at the MGM Grand Garden Arena, Las Vegas, Nevada. The ceremony was hosted by Blake Shelton and Luke Bryan. Winners are shown in bold.",
+        "pred_ans": "| Event Name                         | Date       | Location                    | Hosts                     | Winners            |\n|------------------------------------|------------|-----------------------------|---------------------------|--------------------|\n| 48th Academy of Country Music Awards | April 7, 2013 | MGM Grand Garden Arena, Las Vegas, Nevada | Blake Shelton and Luke Bryan | -              |"
+    },
+    {
+        "doc": "The <tgr>39th Academy of Country Music Awards</tgr> were held on May 26, 2004 at the Mandalay Bay Resort & Casino, Las Vegas, Nevada. The ceremony was hosted by ACM Award winner, Reba McEntire. Winners are listed in bold.",
+        "pred_ans": "| Event Name                      | Date         | Location                             | Host          |\n|---------------------------------|--------------|--------------------------------------|---------------|\n| 39th Academy of Country Music Awards | May 26, 2004 | Mandalay Bay Resort & Casino, Las Vegas, Nevada | Reba McEntire | \n\nThis table summarizes the key details of the 39th Academy of Country Music Awards, including the event name, date, location, and host."
+    }
+]
