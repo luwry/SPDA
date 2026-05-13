@@ -155,7 +155,7 @@ def save_output(event_type, roles, arguments, triggers):
     if not os.path.exists(args.output_file):
         os.makedirs(args.output_file)
     path = args.output_file + event_type + '.csv'
-    # header = [', '.join(name) for name in roles] + ['trigger']#改
+    # header = [', '.join(name) for name in roles] + ['trigger']
     header = roles + ['trigger']
     events = []
     for (i, arg) in enumerate(arguments):
