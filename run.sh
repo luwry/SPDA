@@ -2,14 +2,15 @@ model_name="gpt-3.5-turbo"
 ###cluster_demos
 for num_clusters in 4 10; do
   python cluster_demos.py \
-    --pred_file demos/${model_name}_zero_shot_cot/ \
-    --demo_save_dir cluster_demos/${model_name}_${num_clusters}/ \
+    --pred_file "demos/${model_name}_zero_shot_cot" \
+    --demo_save_dir "clustering/${model_name}_${num_clusters}" \
     --num_clusters ${num_clusters}
+done
 ###iter_demos
 for iter in 0 4; do
   python iter_demos_max_demo.py \
-    --pred_file 'cluster_demos/gpt-3.5-turbo' \
-    --demo_save_dir 'iter_demos/gpt-3.5-turbo' \
+    --pred_file 'clustering/gpt-3.5-turbo' \
+    --demo_save_dir 'iter/gpt-3.5-turbo' \
     --iter ${iter}
 done
 
